@@ -78,3 +78,10 @@ INSTALLED_APPS에 wordcount.apps.WordcountConig
 🌱View 만들기
 render(request, ‘wordcount/home.html’)
 //home.html이라는 template이 위치하는 경로. 앞서 템플릿을 templates/wordcount/home.html 경로에 만들었기 때문
+
+
+#가상환경 설정(source myvenv/bin/activate가 먹히지 않을때)
+
+🌱pyenv virtualenv 3.7.0 pagenation//가상환경설정
+
+🌱pyenv local pagenation .//적용
